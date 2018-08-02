@@ -1,3 +1,52 @@
-#container {
-    background-image: images/subtle_grunge.png
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    width: 980px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0px;
+    padding: 20px;
+    width: 170px;
+
+}
+
+
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 20px;
+    text-align: center;
+
+}
+
+li a {
+    display: block;
+    background-color: #ffffff
+}
+
+#container{
+    background-image: url(/assets/images/oriental.png);
+    background-color: aqua;
+    
+}
+
+#aboutme{
+    color: #4aaaa5;
 }
