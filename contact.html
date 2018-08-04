@@ -8,39 +8,40 @@
 
 <body>
 
+<div class="wrapper">
+
 <section id="topbar">
 
     <h1 id="name">Iain Gillespie</h1>
 
     <ol class="reference">
-        <li> <a href="index.html">About</a> </li>
+        <li id="about"> <a href="index.html">About</a> </li>
      
-        <li> <a href="portfolio.html">Portfolio</a> </li>
+        <li id="portfolio"> <a href="portfolio.html">Portfolio</a> </li>
      
-        <li> <a href="contact.html">Contact</a> </li>
+        <li id="contact"> <a href="contact.html">Contact</a> </li>
     </ol>
     
 
 </section>
 
-<hr>
-
 <section id="container">
 
-    <section id="contactframe">
+    <section class=frame id="contactframe">
 
-    <h1>Contact</h1>
+    <h3>Contact</h3>
     <hr>
 
     <form >
+        <br>
         Name:<br>
         <input type="text" name="name" value="John Smith"><br>
         Email:<br>
         <input type="text" name="email" value="example@gmail.com"><br>
         Message:<br>
-        <input type="text" name="message" value=""><br>
+        <input id="message" type="text" name="message" value=""><br>
         
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
       </form>
 
     </section>
@@ -51,7 +52,11 @@
 
 <div id="bottom"></div>
 
-<footer>Copyright &copy</footer>
+<footer>
+    <div id="footerteal"></div>
+    Copyright &copy</footer>
+
+</div>
 
 </body>
 

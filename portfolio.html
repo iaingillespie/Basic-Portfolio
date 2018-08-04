@@ -8,63 +8,86 @@
 
 <body>
 
+<div class="wrapper">
+
 <section id="topbar">
 
     <h1 id="name">Iain Gillespie</h1>
 
     <ol class="reference">
-        <li> <a href="index.html">About</a> </li>
+        <li id="about"> <a href="index.html">About</a> </li>
      
-        <li> <a href="portfolio.html">Portfolio</a> </li>
+        <li id="portfolio"> <a href="portfolio.html">Portfolio</a> </li>
      
-        <li> <a href="contact.html">Contact</a> </li>
+        <li id="contact"> <a href="contact.html">Contact</a> </li>
     </ol>
+
+  
     
 </section>
 
-<hr>
-
 <section id="container">
 
-    <section id="portfolioframe">
+    <section class=frame id="portfolioframe">
 
-    <h1>Portfolio</h1>
+    <h3>Portfolio</h3>
     <hr>
 
-    <div id="hangman">
-    <img src="assets/images/Beast.jpg"
-    height="200px"
-    width="200px"
-        <div>Hangman</div>
-    </div>
+    <!-- A Failed attempt to put portfolio in to show tested meathods. Got close but never fully there. -->
+<!-- 
+    <div class="gallery">
+            <a target="_blank" href="/assets/images/Beast.jpg">
+              <img src="/assets/images/Beast.jpg" alt="Beast" width="300" height="200">
+            </a>
+            <div class="desc">Hangman</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/assets/images/BenFrank.jpg">
+              <img src="/assets/images/BenFrank.jpg" alt="benfrank" width="300" height="200">
+            </a>
+            <div class="desc">RPG Game</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/assets/images/Cab.jpg">
+              <img src="/assets/images/Cab.jpg" alt="cab" width="300" height="200">
+            </a>
+            <div class="desc">Trivia Game</div>
+          </div>
+          
+          <div class="gallery">
+            <a target="_blank" href="/assets/images/matchu.jpg">
+              <img src="/assets/images/matchu.jpg" alt="matchu" width="300" height="200">
+            </a>
+            <div class="desc">Rutgers Info Widget</div>
+          </div>
+          
+          <div class="gallery">
+                  <img src="/assets/images/PeruMap.jpg"
+                <div class="desc">Rock Paper Scissors</div>
+              </div> -->
 
-    <div id="rpggame">
-    <img src="assets/images/BenFrank.jpg"
-    height="200px"
-    width="200px"
-    <div>RPG Game</div>
-    </div>
     
-    <div id="triviagame">
-    <img src="assets/images/Cab.jpg"
-    height="200px"
-    width="200px"
-    <div>Trivia Game</div>
-    </div>
+    <ul>
 
-    <div id="widget">
-    <img src="assets/images/matchu.jpg"
-    height="200px"
-    width="200px"
-    <div>Rutgers Info Widget</div>
-    </div>
+    <li class="imgcontainer"><img src="assets/images/Beast.jpg"
+    <li>
+
+
+    <li class="imgcontainer"><img src="assets/images/BenFrank.jpg"
+    RPG Game </li>
     
-    <div id="rock">
-    <img src="assets/images/PeruMap.jpg"
-    height="200px"
-    width="200px"
-    <div>Rock Paper Scissors</div>
-    </div>
+    <li class="imgcontainer"><img src="assets/images/Cab.jpg"
+    Trivia Game </li>
+
+    <li class="imgcontainer"><img src="assets/images/matchu.jpg"
+    Rutgers Info Widget </li>
+    
+    <li class="imgcontainer"><img src="assets/images/PeruMap.jpg"
+    Rock Paper Scissors </li>
+
+    </ul>
 
     </section>
 
@@ -72,7 +95,11 @@
 
 <div id="bottom"></div>
 
-<footer>Copyright &copy</footer>
+<footer>
+<div id="footerteal"></div>
+Copyright &copy</footer>
+
+</div>
 
 </body>
 
